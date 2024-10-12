@@ -100,15 +100,15 @@ main .footer a button:hover::after{
 }
 main .footer a button::after{
     content: "";
-    width: 98%;
+    width: 99%;
     height: 400px;
     position: absolute;
-    top: -200px;
-    left: 4px;
+    top: -150px;
+    left: 2px;
     background-color: #c625d0;
     background-image: linear-gradient(255deg, #27d86c 0%,#26caf8 50%, #c625d0 100%);
     z-index: -1;
-    transition: all 0.5s ease;
+    transition: all 2s ease;
 }
 
 /*.pictures{
