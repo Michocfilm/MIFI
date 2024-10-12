@@ -269,7 +269,7 @@ header {
     }
 }
 .learn{
-    /* padding: 20px 30px; */
+    padding: 20px 30px;
     font-size: 1.25rem;
     cursor: pointer;
     border: 0px;

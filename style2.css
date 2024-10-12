@@ -98,18 +98,18 @@ main .footer a button{
 main .footer a button:hover::after{
     transform: rotate(150deg);
 } */
-/*main .footer a button::after{
+main .footer a button::after{
     content: "";
-    /* width: 400px; 
+    width: 400px; 
     height: 400px;
     position: absolute;
     top: -100px;
     left: -20px;
     /* background-color: #c625d0;
-    /* background-image: linear-gradient(255deg, #27d86c 0%,#26caf8 50%, #c625d0 100%); 
+    /* background-image: linear-gradient(255deg, #27d86c 0%,#26caf8 50%, #c625d0 100%); */
     z-index: -1;
     transition: all 0.5s ease;
-}*/
+}
 
 /*.pictures{
     display: grid;
