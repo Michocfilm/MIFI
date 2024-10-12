@@ -121,6 +121,10 @@ nav div.logo a{
     color: rgb(4, 248, 37);
     text-decoration: none;
 }
+.logo :hover{
+    transition: transform 0.5s;
+    transform: scale(1.2);
+}
 ul.menu{
     display: flex;
     list-style: none;
