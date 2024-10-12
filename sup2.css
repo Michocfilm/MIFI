@@ -1,0 +1,29 @@
+* ::after,::before{
+    box-sizing: border-box;
+}
+.container{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img {
+    height: 215px;
+    /* background-color: brown; */
+}
+
+.img img{
+    width: 80%;
+    padding: 1rem 0;
+}
+.img2{
+    padding: 1rem;
+}
+.img2 img{
+    width: 70%;
+    border-radius: 10px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="abo.css">
+    <link rel="stylesheet" href="abo2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>   
+    <nav>
+        <div>
+            <div class="logo">
+                <h1><a href="index.html">MIFI</a></h1>
+            </div>
+            <ul class="menu">
+                <a href="index.html"><button class="B1"><i class="fa-solid fa-house"></i>หน้าแรก</button></a>
+                <a href="index.html"><button id="navigateButton" onclick="smoothScroll('S2')"><i class="fa-solid fa-diagram-project"></i>โปรเจ็ค</button></a>
+                <a href="support.html"><button class="B3"><i class="fa-solid fa-hand-holding-heart"></i>สนับสนุน</button></a>
+                <a href="abount.html"><button class="B4"><i class="fa-solid fa-circle-info"></i>เกี่ยวกับฉัน</button></a>
+            </ul>
+        </div>
+        <div class="hamburger-icon" id="hamicon" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <ul class="git">
+            <a href="https://github.com/Michocfilm" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </ul>
+        
+    </nav>
+    <ul class="burger-menu" id="burgermenu">
+        <a href="index.html"><button class="B1"><i class="fa-solid fa-house"></i>หน้าแรก</button></a><br>
+        <a href="index.html"><button onclick="smoothScroll('S2')"><i class="fa-solid fa-diagram-project"></i>โปรเจ็ค</button></a><br>
+        <a href="support.html"><button class="B3"><i class="fa-solid fa-hand-holding-heart"></i>สนับสนุน</button></a><br>    
+        <a href="abount.html"><button class="B4"><i class="fa-solid fa-circle-info"></i>เกี่ยวกับฉัน</button></a><br>
+        <a href="https://github.com/Michocfilm" target="_blank"><button class="B4"><i class="fa-brands fa-github"></i>Github</button></a><br>
+    </ul>
+    <header class="hh">
+        <div class="main">
+            <div class="header">
+                <h5><i class="fa-solid fa-circle-info"></i>เกี่ยวกับเรา</h5>
+            </div>
+            <div class="body">
+                <div class="card">
+                    <div class="img">
+                        <img src="ME.jpg" alt="">
+                        <h1>MIFI</h1>
+                        <p>Owner and Developer</p>
+                    </div>
+                    <div class="foot-5">
+                        <h4>ช่องทางติดต่อ</h4>
+                        <a class="c1" href="https://www.instagram.com/luckyboyn9?igsh=a201c2hlOW1qdWF1" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="c2" href="https://github.com/Michocfilm" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a class="c3" href="https://youtube.com/@filmbooyah938?si=tVad5SJl6ihADJ2M" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--<footer>
+        <p class="f">THANK</p>
+    </footer>-->
+    <script src="script.js"></script>
+</body>
+</html>
