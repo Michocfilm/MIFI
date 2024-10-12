@@ -100,7 +100,7 @@ main .footer a button:hover::after{
 }
 main .footer a button::after{
     content: "";
-    width: 99%;
+    width: 98%;
     height: 400px;
     position: absolute;
     top: -200px;
