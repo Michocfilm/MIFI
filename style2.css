@@ -94,6 +94,7 @@ main .footer a button:hover{
     transition: transform 0.5s;
     transform: translate(0, -6px);
     box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, 0.5), -10px 10px 25px 0px rgba(39, 200, 255, 0.5);
+    animation: mmm 1.7s infinite ease-in-out;
 }
 main .footer a button:hover::after{
     transform: rotate(150deg);
@@ -110,7 +111,17 @@ main .footer a button::after{
     z-index: -1;
     transition: all 0.5s ease;
 }
-
+@keyframes mmm {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px); /* ลอยขึ้น 10px */
+    }
+    100% {
+      transform: translateY(0); /* กลับมาตำแหน่งเดิม */
+    }
+  }
 /*.pictures{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
