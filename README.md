@@ -1,7 +1,7 @@
 # 💡Example Ex of this website
-
+<a href = "https://mifi-4sm6.onrender.com" target="_blank"><kbd>🟢 Web-MiFi</kbd></a><br>
 <p align="center">
-   <img src="MiFi.png" width="180%">
+   <img src="mifi.png" width="180%">
 </p>
 
 #  
@@ -19,3 +19,10 @@
    <img src="Untitled-10.png" width="40%">
 </p>
 
+# 💰💸 Support channels 💵🍀
+<p align = "center">
+   <img src = "payment.png" width = "80%">
+</p>
+<p align = "center">
+   <img src = "pay.jpg" width = "50%">
+</p>
