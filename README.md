@@ -1,5 +1,5 @@
 # 💡Example Ex of this website
-<a href = "https://mifi-4sm6.onrender.com" target="_blank"><kbd>🟢 Web-MiFi</kbd></a><br>
+<a href = "https://mifi-4sm6.onrender.com"><kbd>🟢 Web-MiFi</kbd></a><br>
 <p align="center">
    <img src="mifi.png" width="180%">
 </p>
