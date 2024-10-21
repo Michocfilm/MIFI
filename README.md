@@ -1,7 +1,7 @@
 # 💡Example Ex of this website
 
 <p align="center">
-   <img src="Ex of this website.png">
+   <img src="MiFi.png" width="180%">
 </p>
 
 #  
